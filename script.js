@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="w3-amber">
         <h2>Tekki Mariani</h2>
         <p>This is where the art comes from</p>
+        
     </div>
     `;
     document.body.insertBefore(header, document.body.firstChild);
@@ -22,5 +23,5 @@ document.addEventListener("DOMContentLoaded", function () {
         <a href="about.html">Über mich</a> | 
         <a href="projects.html">Projekte</a>
     `;
-    document.body.insertAfter(nav, header);
+    document.body.insertAfter(nav, document.body.firstChild);
 });
