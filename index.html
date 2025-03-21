@@ -1,5 +1,25 @@
+<!DOCTYPE html>
 <html>
-    <body>
-        <p>Lets see if this is working now.</p>
-    </body>
-</html>>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tekki Mariani</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tekki Mariani</h1>
+        <nav>
+            <button onclick="loadContent('about')">Über mich</button>
+            <button onclick="loadContent('projects')">Projekte</button>
+            <button onclick="loadContent('contact')">Kontakt</button>
+        </nav>
+    </header>
+    
+    <main id="content">
+        <p>Willkommen auf meiner Seite!</p>
+    </main>
+    
+    <script src="content.js"></script>
+</body>
+</html>
