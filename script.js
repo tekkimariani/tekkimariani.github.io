@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     let header = document.createElement("header");
-    nav.innerHTML = `
+    header.innerHTML = `
     <div class="w3-amber">
         <h2>Tekki Mariani</h2>
         <p>This is where the art comes from</p>
